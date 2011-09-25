@@ -1,26 +1,28 @@
-Latest version is 2.0.10.4
+Latest version is 2.1.9
  
 # jzmq-native-deps 
 ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
-Includes linux x86, mac x86_64, and mac x86(??) //will include window x86, and window x86_64. Please fork and build for other architectures!
+Includes windows x86 // want linux x86, linux x86_64, mac x86_64, mac x86(??), and window x86_64. Please fork and build for other architectures!
 Inludes windows  x86. There is also a windows x86_64 folder with same dll as windows x86 (but this is NOT 64 bit! but it can work on 64 bit - if you run 32 bit java and place a 32 bit libzmq.dll into c:\system\sysWOW64 - this is just temporary until i have time to built 64 bit version).
  
 ## Jzmq version used
 [jzmq](https://github.com/zeromq/jzmq)
 
 commit number:
-ee2d21e1aa9ecd4e1a0b
+6da1142d4a15cfad3cabd68cae983af2f3f5eeaa
 
 commit comment:
-Added support for unregistering sockets from poller.
+Merge pull request #72 from jhawk28/master
+
+add 3.0 socket options
 
 commit date:
-December 29, 2010
+Tue Sep 13 05:55:04 2011 -0700
 
 ## Usage in Project.clj
 Look at sample_project.clj in this directory.
 
-You also need to install zeromq 2.0.10 separately for your platform.
+You also need to install zeromq 2.1.9 separately for your platform.
  
 [zeromq](http://www.zeromq.org/intro:get-the-software)
 

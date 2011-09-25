@@ -16,3 +16,5 @@ code and replaced errno by zmq_errno() for everything - hopefully i didnt make a
 changed jzmq on windows to release build. added windows x86_64 directory with 32 bit dll in it (see README).
 * 2.0.10.4 March 7
 added 64 bit linux so file
+
+* 2.1.9 Sept 25, 2011

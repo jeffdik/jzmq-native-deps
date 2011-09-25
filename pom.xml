@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.clojars.starry</groupId>
+  <groupId>jzmq-native-deps</groupId>
   <artifactId>jzmq-native-deps</artifactId>
-  <version>2.0.10.4</version>
+  <version>2.1.9</version>
   <name>jzmq-native-deps</name>
   <description>ZeroMQ Java bindings all packaged up and ready for use with leiningen + native-deps + clojars.org.
-                Includes Mac OS X x86, linux x86, linux x86_64, window x86, and window x86_64. Please fork and build for other architectures!</description>
+                Includes window x86 and window x86_64 (kinda).  Please add Mac OS X x86, linux x86, and linux x86_64. Please fork and build for other architectures!</description>
   <scm>
-    <connection>scm:git:git://github.com/Storkle/jzmq-native-deps.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/Storkle/jzmq-native-deps.git</developerConnection>
-    <tag>ff067aec121ff8407c7195bd4d3fa7f270e358c7</tag>
-    <url>https://github.com/Storkle/jzmq-native-deps</url>
+    <connection>scm:git:git://github.com/s450r1/jzmq-native-deps.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/s450r1/jzmq-native-deps.git</developerConnection>
+    <tag>bd64364129955ecacb98a3c1709d66207c0a8832</tag>
+    <url>https://github.com/s450r1/jzmq-native-deps</url>
   </scm>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -31,14 +31,6 @@
     <repository>
       <id>central</id>
       <url>http://repo1.maven.org/maven2</url>
-    </repository>
-    <repository>
-      <id>clojure</id>
-      <url>http://build.clojure.org/releases</url>
-    </repository>
-    <repository>
-      <id>clojure-snapshots</id>
-      <url>http://build.clojure.org/snapshots</url>
     </repository>
     <repository>
       <id>clojars</id>
